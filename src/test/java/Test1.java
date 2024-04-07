@@ -18,7 +18,7 @@ public class Test1 {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("$.json.name", equalTo(null))
+                .body("$.json.name", equalTo("Add your name in the body"))
         ;
     }
 }
